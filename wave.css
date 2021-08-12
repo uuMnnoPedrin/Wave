@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 750px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    position:relative;
+    max-width: 100%;
+}
+nav ul li a {
+    margin-left: 33px; /* espaçamento entre eles */
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover {
+    color: rgba(120, 255, 248, 1);
+    transition: color .6s ease-in-out;
+/*     transition: .5s, color: rgba(120, 255, 248, 1); */
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+@media (max-width: 1005px) {
+    nav ul {
+        float: right;
+        margin-right: 4rem;
+    }
+}
+
+@media (max-width: 975px){
+    img.logo-navbar {
+        height: 70%;
+        padding-left: -20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    nav ul {
+        float: right;
+        margin-right: 4rem;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color:rgba(0, 0, 0, 0.9);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        margin-left: 1rem;
+        font-size: 20px;
+        color: black;
+        opacity: 0.8;
+
+    }
+
+   /*  a:hover, a {
+        background: white;
+        opacity: 1;
+        transition: .5s; 
+
+    }*/
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+.bg-fundo{
+    width: 100%;
+    height: 80%;
+    overflow: hidden; /* coloca a imagem por trás das coisas */
+    position: absolute;
+    top: -0%;
+    left: -0%;
+    z-index: -100;
+    object-fit: cover;
+}
+
+.logo{
+    /* Wave */
+
+
+position: absolute;
+width: 137px;
+height: 55px;
+left: 108px;
+top: 16px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bolder;
+font-size: 45px;
+line-height: 55px;
+/* identical to box height */
+
+
+color: #78FFF8;
+
+/* border: 1px solid #6BFFF7; */
+}
+
+.texto-nav{
+    /* O ramen mais S a b o r o s o direto de Tokyo, no B r a s i l */
+
+
+position: absolute;
+width: 553px;
+height: 268px;
+left: 58px;
+top: 177px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 67px;
+
+color: #FFFFFF;
+}
+
+.cor1main{
+ color: #E83F3F;
+}
+.cor2main{
+    color: #62D47B;
+}
