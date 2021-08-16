@@ -1,2 +1,2 @@
 # Wave
-Site de Fast Food criado nas aulas de Artes do COTEMIG
+Site de Fast Food feito na aula.
