@@ -8,7 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="img/readme.png" alt="exemplo imagem">
+<img src="img/readme.png" alt="imagem temporária">
 
 > Projeto de site de fast food simples feito para um trabalho de escola.
 
@@ -39,4 +39,4 @@ As seguintes pessoas foram responsáveis por esse projeto:
   </tr>
 </table>
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#Wave)<br>
