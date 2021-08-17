@@ -29,7 +29,7 @@ As seguintes pessoas foram responsáveis por esse projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/uuMnnoPedrin">
         <img src="https://avatars.githubusercontent.com/u/84470240?v=4" width="100px;" alt="Foto do Pedro Veiga no GitHub"/><br>
         <sub>
           <b>Pedro Veiga Ribeiro</b>
