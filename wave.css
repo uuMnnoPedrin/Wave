@@ -94,29 +94,40 @@ header{
     border-radius: 15px;
 }
 
+/* Por algum motivo esta funcionando, então vou deixar o código adicional pra previnir o código de quebrar */
+
 .opacity{
     background-color: rgba(17, 17, 17,0);
     border-radius: 15px 15px 0px 0px;
     background-size: 353px 293px;
     height: 195px;
-    transition: all 0.5s ease-out;
+ /*    transition: all 0.5s ease-out; */
+}
+
+.opacity figure img{
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .opacity img{
+    position: absolute;
     opacity: 1;
     transition: all 0.3s ease-in-out;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .opacity img:hover{
-    /* transition: opacity 0.5s ease; */
     opacity: 0.4;
 }
 
-.opacity:hover{
-    /* transition: background-color 0.5s ease; */
-    background-color: rgba(17, 17, 17,1);
-    border-radius: 15px 15px 0px 0px;
-    background-size: 353px 293px;
+.opacity figure img :hover{
+    opacity: 1;
 }
 
 .desc-title{
@@ -143,5 +154,28 @@ header{
     background-color: var(--bg_destaque);
     height: 474px;
     width: 100%;
+    display: inline-block;
 }
 
+.destaque img{
+    padding-top: 71px;
+    padding-left: 253px;
+}
+
+.txt-destaque{
+    position: relative;
+    right: auto;
+}
+
+.dest-title{
+    color: rgba(16, 2, 1, 1);
+    font-family: Montserrat, sans-serif;
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.dest-text{
+    color: rgba(16, 2, 1, 1);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+}
