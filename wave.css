@@ -4,7 +4,8 @@
     /* paleta de cores do site */
     --bg_pag:rgba(250, 250, 250,1);
     --bg_destaque:rgba(240, 234, 230,1);
-    --cor_botao:rgba(213, 127, 31,1);
+    --cor_botao:rgba(228, 123, 38, 1);
+    ;
     --clr_nav:rgba(17, 17, 17,1);
     --clr_footer:rgba(26, 26, 26,1);
     --clr_Wave: rgba(158, 252, 249,1);
@@ -151,31 +152,69 @@ header{
 }
 
 .destaque{
+    display: flex;
     background-color: var(--bg_destaque);
     height: 474px;
     width: 100%;
-    display: inline-block;
+    justify-content:flex-start; 
 }
 
-.destaque img{
+.destaque div{
+    display: inline-block;
+    padding-left: 196px;
+    /* border-style: solid; */
+}
+
+#hotstock{
     padding-top: 71px;
     padding-left: 253px;
 }
 
-.txt-destaque{
-    position: relative;
-    right: auto;
+/* 
+.txt-destaque p{
+    font-family: "Montserrat", sans-serif;
+    color: rgba(16, 2, 1, 1);
 }
+ */
+
+ .destaque p{
+     padding-left: 100px;
+ }
 
 .dest-title{
     color: rgba(16, 2, 1, 1);
     font-family: Montserrat, sans-serif;
     font-size: 43px;
     font-weight: 500;
-}
+    padding-bottom: 1px;
+    padding-top: 138px;
+} 
 
 .dest-text{
     color: rgba(16, 2, 1, 1);
     font-family: Montserrat, sans-serif;
     font-size: 18px;
+    padding-bottom: 5px;
+} 
+
+
+.dest-preco{
+    color: var(--cor_botao);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    padding-bottom: 4px;
+    
+}
+
+.btn-pecaja{
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight:lighter;
+    padding: 10px 50px ;
+    border-radius: 7px;
+    color: rgba(255, 255, 255, 1);
+    background-color: var(--cor_botao);
+    border-style: none;
 }
