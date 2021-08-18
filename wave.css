@@ -218,3 +218,16 @@ header{
     background-color: var(--cor_botao);
     border-style: none;
 }
+
+.imagem4{
+    background-color: var(--bg_pag);
+}
+
+.imagem4 div{
+    width: 100%;
+    padding-top: 94px;
+}
+
+#espaco1{
+    padding-left: 94px;
+}
