@@ -19,7 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] NavBar
 - [ ] Estrutura das Páginas
 - [ ] Formatação das Páginas
-- [ ] Footer
+- [x] Footer
 - [ ] Responsividade
 
 ## 🤝 Responsáveis

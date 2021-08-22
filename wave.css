@@ -360,7 +360,7 @@ footer{
     margin-top: auto;
 }
 
-.logo_container img{
+.logo_footer img{
     margin-top: 12px;
     margin-left: 108px;
     width: 100px;
@@ -383,4 +383,75 @@ footer{
     padding-top: 11px;
     font-size: 20px;
     color: #777777;
+}
+
+.location-bg{
+    background-color:var(--bg_destaque);
+}
+
+.location0{
+  
+    width: 100%; 
+    overflow: hidden;
+}
+
+.location1{
+    padding-top: 60px;
+    padding-left: 57px;
+    padding-bottom: 60px;
+    float: left;
+
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+}
+
+.location2{
+    padding-top: 60px;
+    margin-left: 620px;
+    padding-left: 120px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.location2 .exterior{
+    padding-bottom: 78px;
+}
+
+.sobre-title{
+
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    background-color: var(--clr_nav);
+    height: 258px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.sobre-title .sobre-text{
+    padding-top: 170px;
+}
+
+.sobre-title .sobre-wave{
+    color: var(--clr_Wave);
+    font-size: 40px;
+}
+
+.sobre-dest{
+    display: inline-block;
+}
+
+.sobre-dest div{
+    font-family: "Roboto", sans-serif;
+    padding-top: 36px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    height: fit-content;
+}
+
+.sobre-dest div img{
+    padding-top: 50px;
 }
