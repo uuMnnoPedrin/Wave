@@ -17,8 +17,8 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] NavBar
-- [ ] Estrutura das Páginas
-- [ ] Formatação das Páginas
+- [x] Estrutura das Páginas
+- [x] Formatação das Páginas
 - [x] Footer
 - [ ] Responsividade
 
